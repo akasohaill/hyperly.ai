@@ -1,0 +1,59 @@
+/* PricingSection.css */
+.pricing-section {
+   margin: auto;
+    width: 40vw;
+    background-color: #1c0a8b;
+    margin-top: 30px;
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .pricing-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-section .plan {
+    margin-bottom: 40px;
+  }
+  
+  .pricing-section .plan h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-section .plan p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-section .plan ul {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-section .plan ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-section .plan button {
+    width: 150px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pricing-section .plan button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,35 @@
+/* HeroSection.css */
+.hero-section {
+    /* background-color: #f8f9fa; */
+    background-color: #140765;
+
+    padding: 100px 0;
+    text-align: center;
+    /* width: 100vw; */
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-section button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0056b3;
+  }
+  
